@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="stylesheet" href="Blog3.css">
+</head>
+<body>
+    <header>
+        <h1>BLOG</h1>
+        <div class="notification-icon" id="notificationIcon">
+            🔔 <span id="notification-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="new-post">
+            <h2>Create New Post</h2>
+            <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+            <input type="file" id="post-image" accept="image/*">
+            <button id="create-post-button">Post</button>
+        </section>
+        <section class="posts">
+            <h2>Posts</h2>
+            <div id="posts-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Timi Biggy</p>
+    </footer>
+    <script src="Blog3.js"></script>
+</body>
+</html>

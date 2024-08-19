@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimpleBlog </title>
+
+  
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+ 
+  <link rel="stylesheet" href="Blog.css">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="images/logo-light.svg" alt="SimpleBlog logo" width="150" class="logo-light">
+          <img src="images/logo-dark.svg" alt="SimpleBlog logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link"><a href="Add.html">Login/Signup</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi,<b>Welcome</b>
+            <br>To TimmyBigi
+          </h1>
+
+          <p class="h1">
+            Blog Website <abbr title="Accessibility"></abbr>
+          </p>
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contact Me</a>
+            <a href="#" class="btn btn-secondary">About Me</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="images/hero.jpg" alt="Timmy Biggy" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Post</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-1.png" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Database</button>
+
+                <h3>
+                  <a href="#" class="h3">
+                    Beginner
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio asperiores voluptates illo, culpa saepe unde illum expedita id perspiciatis, natus tenetur eligendi hic quis aliquam excepturi ipsum voluptas alias deleniti!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Timmy Biggy" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Jan 17, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-2.png" alt="Fast web page loading on a $20 feature phone" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Web Performance</button>
+
+                <h3><a href="" class="h3">Fast web page </a></h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ipsum velit dicta repudiandae expedita dolorem fugit, accusamus minus recusandae ipsa qui repellendus cumque incidunt, odio corrupti architecto impedit deleniti veritatis.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Torimhi" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy </a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">Dec 10, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">2 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-3.png" alt="Accessibility Tips for Web Developers" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Accessibility</button>
+
+                <h3><a href="" class="h3">Accessibility Tips for Web Developers</a></h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque iure voluptatum beatae excepturi! Eligendi explicabo dignissimos optio. Fugit similique odio perspiciatis explicabo architecto dolorum. Eos dolorum reprehenderit ipsam laboriosam!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Timmy" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy Biggy</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">Nov 28, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-4.png" alt="Dynamically Securing Databases using Hashicorp Vault"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Database</button>
+
+                <h3><a href="" class="h3">Dynamically Securing Databases using Hashicorp Vault</a></h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores qui sit inventore voluptates illo delectus aliquam est perferendis? Ipsam tenetur illum voluptas aspernatur eius quam ad ex quis soluta provident!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Timmy" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy Biggy</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">Nov 20, 2023</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-5.png"
+                  alt="Adaptive Loading - Improving Web Performance on low-end devices" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Web Performance</button>
+
+                <h3><a href="" class="h3">Adaptive Loading - Improving Web Performance on low-end devices</a></h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minima voluptates quia accusamus, beatae error minus dolores accusantium ad corrupti quae harum modi quis dicta unde quisquam, sed commodi repudiandae.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Timmy" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy Biggy</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">Jan 17, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-6.png"
+                  alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Accessibility</button>
+
+                <h3><a href="" class="h3">Developer</a>
+                </h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem pariatur obcaecati. Similique id quos sunt eligendi neque vel odit voluptatibus, ea perferendis officiis totam sequi blanditiis ut molestiae dolor!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Timmy" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy Biggy</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Jan 17, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-7.png"
+                  alt="Building a Restful CRUD API with Node JS, Express, and MongoDB" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Database</button>
+
+                <h3><a href="" class="h3">Webpage</a></h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aspernatur ratione, eveniet molestiae fuga, maiores dolorem magnam velit animi esse omnis numquam quibusdam mollitia laudantium adipisci placeat et, perspiciatis facere.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Timmy" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy Biggy</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-15">Jan 17, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-8.png" alt="Monitoring Performance with the PageSpeed Insights API"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Web Performance</button>
+
+                <h3><a href="" class="h3">Use of Tabnine</a></h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas temporibus, nostrum sint deserunt odit perspiciatis veritatis veniam architecto quos ipsa vero totam explicabo tempora odio aliquid, eum doloribus id!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Timmy" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy Biggy</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-03">Jan 17, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-9.png" alt="The best web accessibility tools for developers in 2021"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Accessibility</button>
+
+                <h3><a href="" class="h3">The best web </a>
+                </h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur placeat labore a assumenda eius, obcaecati commodi, nulla ratione minima est excepturi aut voluptas maxime quibusdam, ipsa soluta molestias. Autem, odit!
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Timmy" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy Biggy</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-13">Jan 17, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="images/blog-10.png"
+                  alt="How to connect a React frontend with a NodeJS/Express backend" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Database</button>
+
+                <h3><a href="" class="h3">frontend</a></h3>
+
+                <p class="blog-text">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam architecto beatae laboriosam cupiditate placeat! Adipisci exercitationem asperiores assumenda ratione eum enim, vel eaque sit deserunt totam porro ipsa fugit ut.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="images/author.jpg" alt="Timmy" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Timmy Biggy</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-21">Jan 17, 2024</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="btn load-more">Load More</button>
+
+        </div>
+
+
+
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Accessibility</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Web Performance</p>
+            </a>
+
+          </div>
+
+          <div class="tags">
+
+            <h2 class="h2">Tags</h2>
+
+            <div class="wrapper">
+
+              <button class="hashtag">#mongodb</button>
+              <button class="hashtag">#nodejs</button>
+              <button class="hashtag">#a11y</button>
+              <button class="hashtag">#mobility</button>
+              <button class="hashtag">#inclusion</button>
+              <button class="hashtag">#webperf</button>
+              <button class="hashtag">#optimize</button>
+              <button class="hashtag">#performance</button>
+
+            </div>
+
+          </div>
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga a quasi qui atque vel aliquid id ad. Reprehenderit est fugit, itaque mollitia alias fugiat debitis in molestias provident, omnis hic.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Subscribe to our newsletter to be among the first to keep up with the latest updates.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <a href="#" class="footer-logo">
+          <img src="images/logo-light.svg" alt="SimpleBlog Logo" width="150" class="logo-light">
+          <img src="images/logo-dark.svg" alt="SimpleBlog Logo" width="150" class="logo-dark">
+        </a>
+
+        <p class="footer-text">
+          Programming
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2024 <a href="#">Timmy Biggy</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  
+  <script src="Blog.js"></script>
+
+  
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4267B2;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.notification-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: white;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-post, .posts {
+    margin-bottom: 20px;
+}
+
+.new-post textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.new-post input[type="file"] {
+    display: block;
+    margin: 10px 0;
+}
+
+.new-post button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.new-post button:hover {
+    background-color: #365899;
+}
+
+.posts {
+    margin-top: 20px;
+}
+
+.post {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+/* Kebab Menu */
+.kebab-menu {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.kebab-menu-options {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.kebab-menu-options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+
+.kebab-menu-options button:hover {
+    background-color: #365899;
+}
+
+.post .like-button, .post .comment-button {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.post .like-button:hover, .post .comment-button:hover {
+    background-color: #365899;
+}
+
+.post .comment-section {
+    margin-top: 20px;
+}
+
+.post .comment-section input, .post .comment-section button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.post .comment-section button {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    margin-left: 5px;
+}
+
+.post .comment-section button:hover {
+    background-color: #365899;
+}
+
+.comment {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
