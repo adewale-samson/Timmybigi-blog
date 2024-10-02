@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+.active{
+  display: block;
+}
 body {
   background-color: #c9d6ff;
   background: linear-gradient(to right, #e2e2e2, #c9d6ff);
@@ -204,3 +206,4 @@ body {
 .container.active .toogle-right {
   transform: translateX(200%);
 }
+
